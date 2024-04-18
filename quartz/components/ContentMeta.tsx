@@ -27,28 +27,45 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const text = fileData.text
 
     if (text) {
-      const segments: (string | JSX.Element)[] = []
+      var modifiedSegment: string = ""
+      var createdSegment: string = ""
+      const fileRelativePath = fileData.filePath
+      //const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+        const cfgDefaultDataType = cfg.defaultDateType // For backward compatibility, just in case this is used somewhere else by the original author
+
+        if (fileData.dates.created) {
+          cfg.defaultDateType = "created"
+          createdSegment = formatDate(getDate(cfg, fileData)!)
+        }
+
+        if (fileData.dates.modified) {
+          cfg.defaultDateType = "modified"
+          modifiedSegment = formatDate(getDate(cfg, fileData)!)
+        }
+
+        cfg.defaultDateType = cfgDefaultDataType
       }
 
+
       // Display reading time if enabled
+      var readingTimeStr: string = ""
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
-        segments.push(displayedTime)
+        // segments.push(displayedTime)
+        readingTimeStr = displayedTime
       }
 
-      const segmentsElements = segments.map((segment) => <span>{segment}</span>)
-
       return (
-        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segmentsElements}
+        <p class={classNames(displayClass, "content-meta")}>
+          Created: &nbsp;{createdSegment}, {readingTimeStr} <br /> 
         </p>
       )
+
     } else {
       return null
     }
