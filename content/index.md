@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Bienvenue dans mon deuxième cerveau
 ---
 
 This is a blank Quartz installation.

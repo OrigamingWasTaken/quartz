@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🗒️ Notes de Marlon",
+    pageTitle: "marlonb.ch",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,15 +17,15 @@ const config: QuartzConfig = {
       host: "https://umami.origaming.ch"
     },
     locale: "fr-FR",
-    baseUrl: "notes.marlonb.ch",
+    baseUrl: "marlonb.ch",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Sedan",
-        body: "Source Sans Pro",
+        header: "DM Serif Display",
+        body: "Bricolage Grotesque",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -54,6 +54,7 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
+      Plugin.PasswordProtection(),  
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
