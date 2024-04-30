@@ -14,7 +14,7 @@ interface Options {
   lockedDescription?: string,
 }
 
-export const PasswordProtection: QuartzTransformerPlugin = (opts?: Options) => {
+export const PasswordProtection: QuartzTransformerPlugin<Options> = (opts?: Options) => {
   return {
     name: "PasswordProtection",
     htmlPlugins() {
