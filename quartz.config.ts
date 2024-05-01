@@ -1,5 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
-import { Staticrypt } from "./quartz/password-protection"
+import { Staticrypt } from "./quartz/password"
 import * as Plugin from "./quartz/plugins"
 
 /**
