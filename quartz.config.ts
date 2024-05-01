@@ -1,4 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
+import { Staticrypt } from "./quartz/password-protection"
 import * as Plugin from "./quartz/plugins"
 
 /**
@@ -6,6 +7,7 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "marlonb.ch",
@@ -14,7 +16,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "umami",
       websiteId: "7debd2c9-189e-44a8-82ff-a4411df5492a",
-      host: "https://umami.origaming.ch"
+      host: "https://umami.origaming.ch",
     },
     locale: "fr-FR",
     baseUrl: "marlonb.ch",
@@ -30,31 +32,31 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#1c1b1f",
-          lightgray: "#695c7f",
-          gray: "#847998",
-          darkgray: "#d4d4d4",
-          dark: "#8c6ec5",
-          secondary: "#8c6ec5",
-          tertiary: "#847996",
-          highlight: "rgba(132,121,150,0.15)",
+          light: "#FBF7EE",
+          lightgray: "#e0dcd3",
+          gray: "#b8b8b8",
+          darkgray: "#2A354B",
+          dark: "#08142C",
+          secondary: "#274B75",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#1c1b1f",
-          lightgray: "#695c7f",
-          gray: "#847998",
-          darkgray: "#d4d4d4",
-          dark: "#8c6ec5",
-          secondary: "#8c6ec5",
-          tertiary: "#847996",
-          highlight: "rgba(132,121,150,0.15)",
+          light: "#17151B",
+          lightgray: "#2B2734",
+          gray: "#3F394D",
+          darkgray: "544B66",
+          dark: "#685D7E",
+          secondary: "#685D7E",
+          tertiary: "#7C6F97",
+          highlight: "rgba(84,75,102,0.15)",
         },
       },
     },
   },
   plugins: {
     transformers: [
-      Plugin.PasswordProtection({iterations: 1}),  
+      Staticrypt(),
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
@@ -72,7 +74,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.HardLineBreaks()
+      Plugin.HardLineBreaks(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

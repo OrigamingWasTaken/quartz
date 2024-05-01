@@ -215,6 +215,14 @@ export function renderPage(
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
+        <div id="texture"></div>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+          rel="stylesheet"
+        />
+
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}

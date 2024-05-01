@@ -1,6 +1,16 @@
 ---
 title: "Test Note"
-password: "Lol"
+password: "test"
 ---
 
+# right?
+
 This note should be protected!
+
+e
+e
+e
+e
+e
+e
+e

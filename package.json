@@ -47,9 +47,9 @@
     "github-slugger": "^2.0.0",
     "globby": "^14.0.1",
     "gray-matter": "^4.0.3",
-    "hast-util-to-html": "^9.0.0",
+    "hast-util-from-html": "^2.0.1",
+    "hast-util-to-html": "^9.0.1",
     "hast-util-to-jsx-runtime": "^2.3.0",
-    "hast-util-to-string": "^3.0.0",
     "is-absolute-url": "^4.0.1",
     "js-yaml": "^4.1.0",
     "lightningcss": "^1.24.1",
@@ -92,6 +92,7 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "@expo/spawn-async": "^1.7.2",
     "@types/cli-spinner": "^0.2.3",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
@@ -102,7 +103,6 @@
     "@types/ws": "^8.5.10",
     "@types/yargs": "^17.0.32",
     "esbuild": "^0.19.9",
-    "pagecrypt": "^6.1.1",
     "prettier": "^3.2.4",
     "staticrypt": "^3.5.0",
     "tsx": "^4.7.1",

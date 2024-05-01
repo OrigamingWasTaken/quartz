@@ -62,7 +62,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       return (
         <p class={classNames(displayClass, "content-meta")}>
-          Created: &nbsp;{createdSegment}, {readingTimeStr} <br /> 
+          Publié: &nbsp;{createdSegment}, {readingTimeStr} <br /> 
         </p>
       )
 
