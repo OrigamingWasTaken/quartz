@@ -11,9 +11,10 @@ import { VFile } from "vfile"
 const quartzCache = path.resolve("./quartz/.quartz-cache/password/")
 
 export async function encryptPages() {
-  const passwordCache: { password: string; savePath: string }[] = JSON.parse(
-    fs.readFileSync(path.join(quartzCache, "cache.json"), "utf-8"),
-  )
+  const ppath = path.join(quartzCache, "cache.json")
+  const passwordCache: { password: string; savePath: string }[] = fs.existsSync(ppath)
+    ? JSON.parse(fs.readFileSync(ppath, "utf-8"))
+    : []
   for (const file of passwordCache) {
     await spawn("npx", [
       "staticrypt",
