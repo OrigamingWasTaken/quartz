@@ -3,7 +3,7 @@ modified: 2024-05-02T20:58:54+02:00
 title: Accueil
 ---
 <div style="display: flex; gap: 10%; align-items: center; justify-content: center;">
-	<img src="https://marlonb.ch/static/gate.png">
+	<img src="https://marlonb.ch/static/gate.png" style="width: 10vw;">
 	<h1>Portail principal</h1>
 </div>
 
