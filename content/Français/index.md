@@ -4,6 +4,6 @@ title: Dossier de Français
 ---
 # Analyses
 
-[[Français/Analyses/Huis-Clos/index|Huis Clos]]
-[[Français/Analyses/La Tresse/index|La Tresse]]
-[[Français/Analyses/Eldorado/index|Eldorado]]
+[[Français/Analyses/Huis Clos|Huis Clos]]
+[[Français/Analyses/La Tresse|La Tresse]]
+[[Français/Analyses/Eldorado|Eldorado]]
