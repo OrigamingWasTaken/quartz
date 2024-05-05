@@ -1,5 +1,5 @@
 ---
-modified: 2024-05-02T21:24:50+02:00
+modified: 2024-05-05T17:33:27+02:00
 ---
 Ce document explique quelque règles nécessaires à suivre pour ne pas avoir de mauvaises surprises en recevant son test.
 
