@@ -4,8 +4,9 @@ modified: 2024-05-05T17:25:42+02:00
 ---
 ## Présentation de l'auteur
 
-==Jean-Paul Sartre== est né le **21 juin 1905 à Paris**. En **1924**, il intègre l'école normal supérieur où il obtiendra son agrégation de philosophie en **1929**, puis il enseignera la philosophie au Havre. Il publie son premier roman en **1938** (la nausée) puis se tourne vers le théâtre où il publie ses première pièces dont huit clos qui connaîtront un vrai succès grâce à son mouvement littéraire d'origine philosophique « l'existentialisme. Il est mort en 1980.
+Jean-Paul Sartre est né le **21 juin 1905 à Paris**. En **1924**, il intègre l'école normal supérieur où il obtiendra son agrégation de philosophie en **1929**, puis il enseignera la philosophie au Havre. Il publie son premier roman en **1938** (la nausée) puis se tourne vers le théâtre où il publie ses première pièces dont huit clos qui connaîtront un vrai succès grâce à son mouvement littéraire d'origine philosophique « l'existentialisme. Il est mort en 1980.
 <p style="font-size: 10px">- Fatma</p>
+
 ## Présentation de l'oeuvre
 
 **Informations**
