@@ -10,16 +10,11 @@ La tresse a été écrit par Laetitia Colombani. C'est une réalisatrice, écriv
 ## Présentation de l'oeuvre
 
 **Informations**
-	 Paru en 2017
-	 Roman réaliste et contemporain (fidèle à la réalité)
+>	 Paru en 2017
+>	 Roman réaliste et contemporain (fidèle à la réalité)
 
-**Résumé**: "La tresse" entrelace les histoires de trois femmes qui luttent contre
-les défis de la vie. Smita en inde lutte contre la tradition des castes
-pour offrir un avenir meilleur à sa fille, Giulia en Sicile affronte une
-entreprise familiale en crise et Sarah au Canada jongle entre sa
-carrière, sa maternité et sa maladie qu'elle a récemment
-découverte. Bien qu'elles soient séparées par la distance, leurs
-destins vont finir par s'entremêler.
+**Résumé**:
+> "La tresse" entrelace les histoires de trois femmes qui luttent contre les défis de la vie. Smita en inde lutte contre la tradition des castes pour offrir un avenir meilleur à sa fille, Giulia en Sicile affronte une entreprise familiale en crise et Sarah au Canada jongle entre sa carrière, sa maternité et sa maladie qu'elle a récemment découverte. Bien qu'elles soient séparées par la distance, leurs destins vont finir par s'entremêler.
 <p style="font-size: 10px">- Melat</p>
 
 **Sens du titre**: [...]
