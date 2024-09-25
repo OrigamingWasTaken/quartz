@@ -1,3 +1,6 @@
-public
 node_modules
-.quartz-cache
+dist
+/build
+.tmp
+.github
+.git
