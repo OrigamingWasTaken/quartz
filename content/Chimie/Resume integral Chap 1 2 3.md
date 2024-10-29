@@ -1,4 +1,4 @@
-#### Introduction à la Chimie
+## 1. Introduction à la Chimie
 
 - La chimie est une science expérimentale
 - Plusieurs branches (Chimie-Physique, Biochimie, Biologie moléculaire)
@@ -26,7 +26,7 @@
   - Produits de nettoyage, cosmétique (parfums, savons, crèmes)
   - Matériaux (plastiques, ...)
 
-#### 2. Substances chimiques : corps purs ou mélanges
+## 2. Substances chimiques : corps purs ou mélanges
 
 - **Définitions**:
   - Toute la matière qui nous entoure est composée ==d'atomes==
@@ -50,7 +50,7 @@
 <figcaption>Structure carbone</figcaption>
 </figure>
 
-#### 3. États de la matière et changements d'état
+## 3. États de la matière et changements d'état
 
 > [!NOTE]  
 > Ce chapitre concerne uniquement les corps purs.
